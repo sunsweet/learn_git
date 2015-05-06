@@ -17,4 +17,7 @@ class B extends A {
 }
 
 $ex = new B();
+exit();
+die;
 ?>
+
