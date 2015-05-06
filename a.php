@@ -5,3 +5,5 @@ function sayHello($people) {
         }
 }
 sayHello(array('foo', 'bar', 'baz'));
+echo "generator";
+echo "smartisam T1";
