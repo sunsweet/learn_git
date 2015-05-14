@@ -1,9 +1,4 @@
 <?php
-function sayHello($people) {
-	foreach($people as $person) {
-		yield "hello " . $person;
-        }
-}
-sayHello(array('foo', 'bar', 'baz'));
-echo "generator";
-echo "smartisam T1";
+session_start();
+$_SESSION['lock'] = "lock change";
+echo $_SESSION['lock'];
